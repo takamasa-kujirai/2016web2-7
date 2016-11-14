@@ -11,6 +11,13 @@
   <body>
     <p>ホームページ</p>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r81/three.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $("p").css("color","red");
+      });
+    </script>
+  
     <script type="text/javascript">
       var scene = new THREE.Scene();
       var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
